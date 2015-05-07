@@ -1,0 +1,25 @@
+{{! Previous/next page links - only displayed on page 2+ }}
+<div class="extra-pagination inner">
+    {{pagination}}
+</div>
+
+        <ul class="cd-gallery">
+            {{! This is the post loop - each post will be output using this markup }}
+            {{#foreach posts}}
+
+            <li class="cd-item {{#if image}}" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{image}}){{else}}no-cover{{/if}}">
+                <a href="{{url}}">
+                    <div>
+                        <h2>{{{title}}}</h2>
+                        <p>{{excerpt words="26"}}</p>
+                        <b>View More</b>
+                    </div>
+                </a>
+            </li>
+
+            {{/foreach}}
+        </ul> <!-- .cd-gallery -->
+
+{{! Previous/next page links - displayed on every page }}
+
+    {{pagination}}

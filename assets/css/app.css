@@ -1,0 +1,50 @@
+ul.cd-gallery {
+	padding-left: 0;
+	margin: 0;
+}
+
+li.cd-item {
+	margin: 0;
+}
+
+.main-header {
+	margin-bottom: 0;
+}
+
+.scroll-down {
+	left: 45%;
+	color: rgba(51,51,51, .8);
+}
+
+.cd-item div {
+	padding: 0 48px;
+}
+
+.cd-item h2 {
+	color: #fff;
+}
+
+.cd-item a:hover p,
+.cd-item b {
+	color: #fff;
+}
+
+.darker {
+	background-color: rgba(0,0,0, .6);
+}
+
+@media (max-width: 767px) {
+
+.cd-fold-content {
+	max-width: 320px;
+}
+
+.post-footer {
+	max-width: 300px;
+}
+
+a.cd-close {
+	left: 10px;
+}
+
+}
