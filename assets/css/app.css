@@ -42,10 +42,6 @@ li.cd-item {
 	max-width: 100%;
 }
 
-.page-title,
-.page-description {
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
 
 @media (max-width: 767px) {
 
