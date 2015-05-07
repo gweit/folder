@@ -42,6 +42,14 @@ li.cd-item {
 	max-width: 100%;
 }
 
+.single-page {
+	visibility: visible;
+	padding: 0 25%;
+}
+
+.single-page > * {
+	opacity: 1;
+}
 
 @media (max-width: 767px) {
 
